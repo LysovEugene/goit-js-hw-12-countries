@@ -36,8 +36,8 @@ function searchInputSubmitHandler(e) {
         }, '');
       } else {
         PNotify.alert({
-          title: 'Запрос не найден!',
-          text: 'Пожалуйста, введите более точный запрос.',
+          title: 'Страна не найдена!',
+          text: 'Повторите ввод!',
         });
         return (countryItems.innerHTML = '');
       }
